@@ -1,0 +1,32 @@
+### Gradle ###
+.gradle
+build/
+liberty/
+wlp/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+### OS X ###
+.DS_Store
+
+### Generated Files ###
+.settings
+/target
+/node_modules/*
+/node/*
+/src/main/webapp/dist/*
+.sass-cache
+app.log
+
+### Eclipse ###
+.classpath
+.project
+.factorypath
+.settings/
+bin/
+logs/
+.idea/
